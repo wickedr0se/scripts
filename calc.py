@@ -23,3 +23,9 @@ elif operasi == '*':
 	print (var1 * var2)
 elif operasi == '/':
 	print (var1 / var2)
+elif operasi == '**':
+	print (var1 ** var2)
+elif operasi == '%':
+	print (var1 % var2)
+elif operasi == '//':
+	print (var1 // var2)
