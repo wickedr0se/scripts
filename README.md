@@ -8,5 +8,4 @@ v0.02
 Added advance operation in Indonesia language
 
 Next update
-v0.03
-Translate it to English
+Nothing
