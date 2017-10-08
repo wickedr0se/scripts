@@ -1,2 +1,2 @@
 # scripts
-my "thing" in python
+Just a python newbie
