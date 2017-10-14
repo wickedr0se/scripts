@@ -1,31 +1,34 @@
-#Mulai
-print("Kalkulator")
-print(" ")
-#masukan operasi
-operasi = input('''Masukkan operasi 
-penjumlahan (+) 
+cont = "ya"
+while cont == "ya":
+	print(" ")
+	o = input('''penjumlahan (+) 
 pengurangan(-) 
 perkalian(*) 
 pembagian(/) 
 perpangkatan(**) 
 sisa bagi(%) 
 pembagian bulat(//) = ''')
-print(" ")
-#Angka masuk
-var1= int(input("Masukin angka pertama: "))
-var2= int(input("Masukin angka kedua: "))
-#variabel
-if operasi == '+':
-	print (var1 + var2)
-elif operasi == '-':
-	print (var1 - var2)
-elif operasi == '*':
-	print (var1 * var2)
-elif operasi == '/':
-	print (var1 / var2)
-elif operasi == '**':
-	print (var1 ** var2)
-elif operasi == '%':
-	print (var1 % var2)
-elif operasi == '//':
-	print (var1 // var2)
+	print (" ")
+	v1= int(input("Angka pertama: "))
+	v2= int(input("Angka kedua: "))
+	print(" ")
+	if o == '+':
+		print ("%d + %d = " % (v1,v2) , v1 + v2 )
+	elif o == '-':
+		print ("%d - %d = " % (v1,v2) , v1 - v2)
+	elif o == '*':
+		print ("%d * %d = " % (v1,v2) , v1 * v2)
+	elif o == '/':
+		print ("%d / %d = " % (v1,v2) , v1 / v2)
+	elif o == '**':
+		print ("%d ** %d = " % (v1,v2) , v1 ** v2)
+	elif o == '%':
+		print ("%d % %d = " % (v1,v2) , v1 % v2)
+	elif o == '//':
+		print ("%d // %d = " % (v1,v2) , v1 // v2)
+	else:
+		print("MATH ERROR")
+	cont = input("Lagi ? (ya) ")
+	cont = cont.lower()
+
+print ("Bye")
